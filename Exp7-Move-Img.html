@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Moving item</title>
+        <style>
+            .ram{
+                margin:50px;
+                height:400px;
+
+                width:400px;
+                background:url('img3.png')no-repeat;
+                position:sticky;
+                animation: repeatit 1s linear 1s  infinite alternate;
+            }
+            @keyframes repeatit {
+                from {left : 0}
+                to{left :100%}
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ram"></div>
+    </body>
+</html>
